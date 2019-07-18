@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import logo from '../home.png';
+import logo from '../looku.png';
 import styled from 'styled-components';
 import {ButtonContainer} from "./Button";
 
@@ -14,7 +14,7 @@ export default class Navbar extends Component {
             <ul className="navbar-nav align-items-center">
             <li className="nav-item ml-5">
             <Link to="/" className="nav-link">
-                products
+                STORE
             </Link>
             </li>
            </ul>
@@ -34,7 +34,7 @@ export default class Navbar extends Component {
 }
 
 const NavWrapper = styled.nav`
-background: var(--mainGreen);
+background: var(--mainBlue);
 .nav-link {
     color:var(--mainWhite)!important;
     font-size:1.3rem;
