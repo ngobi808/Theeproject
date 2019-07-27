@@ -1,12 +1,14 @@
 :root{
-  --mainGreen:#008C40;
+  --mainGreen:#3FE0D0;
   --lightGreen:#B3FFBF;
   --mainWhite:#FFFF;
-  --mainDark:#232323;
+  --mainDark:#152127;
   --mainYellow:#F7C900;
-  --mainBlue:#03659C;
-  --lightBlue:#22F5F1;
+  --mainBlue:#31A1B6;
+  --lightBlue:#3FE0D0;
   --pitch:#E68B7B;
+  --royalBlue:#9B0041;
+  --mainBrown:#4C3B23;
 
 }
 body{
@@ -23,7 +25,7 @@ body{
   color: var(--mainGreen);
 }
 .text-bright{
-  color: var(--lightGreen);
+  color: var(--mainBlue);
 }
 .text-blue{
   color: var(--mainBlue);

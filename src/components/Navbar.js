@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import logo from '../looku.png';
+import logo from '../logo.png';
 import styled from 'styled-components';
 import {ButtonContainer} from "./Button";
 
@@ -12,9 +12,9 @@ export default class Navbar extends Component {
                 <img src={logo} alt="store" className="navbar-brand"/>
             </Link>
             <ul className="navbar-nav align-items-center">
-            <li className="nav-item ml-5">
+            <li className="nav-item ml-3">
             <Link to="/" className="nav-link">
-                STORE
+                 MEME CHANNEL STORE
             </Link>
             </li>
            </ul>
@@ -34,7 +34,7 @@ export default class Navbar extends Component {
 }
 
 const NavWrapper = styled.nav`
-background: var(--mainGreen);
+background: var(--mainDark);
 .nav-link {
     color:var(--mainWhite)!important;
     font-size:1.3rem;
