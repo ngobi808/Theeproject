@@ -43,7 +43,7 @@ export default class Product extends Component {
                             {title}
                         </p>
                         <h5 className="text-green font-italic mb-0">
-                          <span className="mr-1" >Ksh</span>
+                          <span className="mr-1" >$</span>
                           {price}
                         </h5>
                     </div>

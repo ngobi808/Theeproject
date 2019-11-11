@@ -33,7 +33,7 @@ export default class Details extends Component {
                                   </h5>
                                    <h4 className="text-green">
                                        <strong>
-                                           price : <span>Ksh </span>{price}
+                                           price : <span> $ </span>{price}
                                        </strong>
                                    </h4>
                                    <p className="text-capitalize font-weight-bold mt-3 mb-0 text-info">

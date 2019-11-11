@@ -14,7 +14,7 @@ export default class Navbar extends Component {
             <ul className="navbar-nav align-items-center">
             <li className="nav-item ml-3">
             <Link to="/" className="nav-link">
-                 MEME CHANNEL STORE
+                 
             </Link>
             </li>
            </ul>
